@@ -84,3 +84,20 @@ to find and move to the next or previous ocurrence of a character, use `f` and `
 * `u` for undo
 * `ctrl` `R` for redo
 * `:help` for some help
+
+***
+
+##### Extras and Customization
+
+* colors can be found in `/usr/share/vim/`
+* here is the current set up of my `.vimrc` file which is inside `~/.vimrc`
+
+'set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set textwidth=80
+colorscheme darkblue
+au InsertLeave * colorscheme darkblue
+au InsertEnter * colorscheme molokai`
